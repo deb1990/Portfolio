@@ -1,0 +1,231 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+html,body{
+    width: 100%;
+}
+html{
+    border-top: 3px solid #e9573f;
+}
+
+header {
+    /* height: 122px; */
+
+    text-align: center;
+    margin-top: 50px;
+}
+.headerLink{
+    color: #505050;
+
+    text-decoration: none;
+    margin: 0 40px;
+    /*font-weight: 300;*/
+    display: inline-block;
+    font-size: 18px;
+}
+#logo{
+    display: inline-block;
+    width: 190px;
+    background-size: 100%;
+    line-height: 80px;
+    height: 190px;
+}
+#intro{
+    text-align: center;
+
+    margin-top: 1px;
+    font-size: 32px;
+    color: #555;
+    padding: 10px 15%;
+    background: url(../RESOURCES/section-bg.png) repeat-x left bottom;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 13px;
+}
+.lighttext{
+    color: #555;
+
+}
+.darktext{
+
+}
+
+
+.detailsCard {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.detailsPic {
+    height: 100%;
+    /* width: 100%; */
+    max-width: 100%;
+}
+.folioCard {
+    border: 1px solid #eee;
+    height: 400px;
+    display: inline-block;
+    width: 300px;
+    border-bottom: 2px solid #777;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.folioPic {
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.folioText {
+    height: 100px;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+    /* font-weight: 300; */
+}
+
+#folioCont {
+    max-width: 1200px;
+
+    /*overflow: auto;*/
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 63px;
+}
+
+.folioTitle {
+    font-size: 23px;
+
+    text-transform: uppercase;
+}
+
+.folioDesc {
+    color: #BBB;
+
+}
+
+.folioOuter {
+    width: 340px;
+
+    height: 450px;
+    display: inline-block;
+    /* cursor: pointer; */
+}
+.detailsOuter {
+    width: 100%;
+
+    padding-bottom:  30px;
+    display: inline-block;
+}
+
+
+#myName {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #e9573f;
+    /* letter-spacing: 2px; */
+    /* padding: 0px 15%; */
+
+}
+
+#workTitle {
+    text-align: center;
+
+    margin-top: 68px;
+
+    font-size: 67px;
+
+    font-weight: 800;
+    color: #e9573f;
+    letter-spacing: -0.07em;
+    color: #555;
+    text-transform: uppercase;
+}
+
+#workTitle2 {
+    text-align: center;
+    color: #999;
+    font-size: 23px;
+}
+#workDesc{
+    text-align: center;
+    color: #AAA;
+    font-size: 20px;
+    width:70%;
+    padding:0 15%;
+}
+footer{
+    text-align: center;
+}
+#copyright {
+    color: #999;
+
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#contact {
+    margin-top: 20px;
+}
+#contact i {
+    background: red;
+
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 19px;
+}
+strong{
+    font-weight: 600;
+}
+.redText{
+    color:  #e9573f;
+
+    /* font-weight: 600; */
+}
+@media (max-width: 500px) {
+    #myName {
+        font-size: 35px
+    }
+    #intro {
+        font-size: 25px;
+        padding: 10px 5%;
+    }
+    #workTitle2 {
+        font-size: 22px;
+    }
+    #workDesc{
+        font-size: 18px;
+    }
+    #myName {
+        margin-top: 50px;
+    }
+    #workTitle {
+        font-size: 40px;
+    }
+    .detailsPic {
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+<div id="workTitle">WORK</div>
+<div id="workTitle2">To see my work, browse my portfolio gallery</div>
+<div id="folioCont">
+    <div class="folioOuter" ng-repeat="work in workDetails">
+        <div class="folioCard" ng-click="showProjectDetails($index)">
+            <div class="folioPic" style="background-image: url(RESOURCES/Projects/{{work.poster}})"></div>
+            <div class="folioText">
+                <div class="folioTitle">{{work.title}}</div>
+                <div class="folioDesc">{{work.desc}}</div>
+            </div>
+        </div>
+    </div>
+</div>

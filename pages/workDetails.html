@@ -1,0 +1,10 @@
+<div id="workTitle">{{curretItem.title}}</div>
+<div id="workTitle2">{{curretItem.desc}}</div>
+<div id="workDesc">{{curretItem.detailDesc}}</div>
+<div id="folioCont">
+    <div class="detailsOuter" ng-repeat="item in curretItem.images">
+        <div class="detailsCard">
+            <img class="detailsPic" ng-src="RESOURCES/Projects/{{item}}">
+        </div>
+    </div>
+</div>

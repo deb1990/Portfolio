@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <link href="JS/lib/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="CSS/style.css" rel="stylesheet">
+        <script src="JS/lib/angular.min.js.js" type="text/javascript"></script>
+        <script src="JS/lib/angular-sanitize.js" type="text/javascript"></script>
+        <script src="JS/lib/angular-route.js" type="text/javascript"></script>
+        <script src="JS/app.js" type="text/javascript"></script>
+        <title>Debarshi Bhaumik</title>
+    </head>
+    <body style="overflow: auto;-webkit-overflow-scrolling: touch;">
+        <header>
+            <div id="logo" style="background-image: url(RESOURCES/logo.png);"></div>
+            <div id="myName">I'm Debarshi</div>
+            <div id="intro">I'm a <strong>web</strong> and <strong>mobile</strong> developer,
+                I was thinking we'd make some cool web or mobile apps with <strong>great looking UI</strong>? <span class="redText">Ok yeah!</span>
+            </div>
+        </header>
+
+        <div ng-view style="background: url(RESOURCES/section-bg.png) repeat-x left bottom;border-bottom: 1px solid #ddd;padding-bottom: 13px;"></div>
+        <footer>
+            <div id="contact">
+                <i class="fa fa-facebook" style="background-color: #133CBD" onclick="window.open('https://www.facebook.com/debarshi90', '_blank');"></i>
+                <i class="fa fa-envelope-o" style="background-color: #13BD79" onclick='document.location.href = "mailto:deb1990@gmail.com"'></i>
+                <i class="fa fa-linkedin" style="background-color: #1378bd" onclick="window.open('http://in.linkedin.com/pub/debarshi-bhaumik/55/a18/b47', '_blank');"></i>
+            </div>
+            <div id="copyright">Debarshi Bhaumik © 2014</div>
+        </footer>
+    </body>
+</html>
